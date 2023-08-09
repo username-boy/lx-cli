@@ -1,0 +1,24 @@
+{
+  "name": "lx-cli",
+  "version": "1.0.0",
+  "description": "this is a lx-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lx-cli",
+    "cli"
+  ],
+  "author": "li xiang",
+  "license": "ISC",
+  "bin": {
+    "lx-cli": "./bin/cli.js"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.2.6",
+    "ora": "^5.4.1"
+  }
+}
